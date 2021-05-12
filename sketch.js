@@ -31,8 +31,10 @@ function draw(){
     background(0);
     Engine.update(engine);
     rectMode(CENTER);
+    fill("yellow")
     rect(ground.position.x,ground.position.y,400,20);
 
+    fill("white")
     ellipseMode(RADIUS);
     ellipse(ball.position.x, ball.position.y, 20, 20);
 }
